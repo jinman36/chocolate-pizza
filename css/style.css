@@ -1,0 +1,25 @@
+body {
+  margin: 10px 75px;
+}
+
+header {
+  
+}
+
+span {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  width: 960px;
+  position: center;
+  /* float: right; */
+}
+
+nav span {
+  position: relative;
+  /* float: right; */
+}
+
+
