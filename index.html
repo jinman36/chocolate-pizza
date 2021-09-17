@@ -14,7 +14,7 @@
     <a href="#"><img src="../img/logo.png"></a>
     <span>
       <h1>Delicious</h1>
-      <h3>THE BEST FOOD ON THE WEB</h3>
+      <h3>THE BEST FOOD BLOG ON THE WEB</h3>
     </span>
     <nav>
       <span><img src="../img/fb-icon.png"></span>
@@ -23,7 +23,9 @@
       <span><img src="../img/insta-icon.png"></span>
       <span><img src="../img/flic-icon.png"></span>
       <span><img src="../img/pint-icon.png"></span>
+      <span><img src=""></span>
       <span><img src="../img/rss-icon.png"></span>
+
       <span><img src="../img/mail-icon.png"></span>
     </nav>
     <span id='line'><img src="../img/dashed-line.jpeg"></span>
@@ -31,11 +33,14 @@
   <main>
     <h2>Chocolate Pizza</h2>
     <h4>POSTED ON 15 DEC 2013 / DESSERTS</h4>
-    <div id="print">
-      <span><img src="../img/print-icon.png"></span>
-      <h4>PRINT</h4>
-    </div>
+
+    <nav>
+      <span><img id="print" src="../img/print-icon.png"></span>
+      <span><h4>PRINT</h4></span>
+    </nav>
+
     <span><img src="../img/choco-pizza.png"></span>
+
     <p>
       For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of
       the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until
@@ -72,10 +77,10 @@
     <div id='columnTwo'>
       <input type="checkbox" id='ingredients' unchecked>
       <label>1 1/2 cups heavy cream</label><br>
-      <input type="checkbox" id='ingredients' unchecked>
-      <label>1/3 granulated sugar</label><br>
-      <input type="checkbox" id='ingredients' unchecked>
-      <label>2 egg yolks</label><br>
+      <input type="checkbox" id='ingredients' checked>
+      <label  class="line-through">1/3 granulated sugar</label><br>
+      <input type="checkbox" id='ingredients' checked>
+      <label  class="line-through">2 egg yolks</label><br>
       <input type="checkbox" id='ingredients' unchecked>
       <label>1 lemon, juiced</label><br>
       <input type="checkbox" id='ingredients' unchecked>
@@ -98,7 +103,6 @@
       </div>
 
       <div id="silverware">
-        <hr>
       </div>
 
       <img id="logo" src="../img/small-logo.png">

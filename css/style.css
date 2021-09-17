@@ -4,6 +4,7 @@ body {
   height: auto;
 }
 
+
 #line {
   /* max-width: 920px; */
   margin-right: 75px;
@@ -12,18 +13,29 @@ body {
 header {
   width: 980px;
 }
+
+
 h1 {
   font-size: 2em;
   font-family: 'Lobster', cursive;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 800;
-  font-family: sans-serif;
+  font-family: ;
   margin-top: 10px;;
 }
 
+h3 {
+  font-size: 1.1em;
+  width: 80%;
+  word-wrap: break-word;
+}
+
+h4 {
+  color: rgb(173, 171, 171)
+}
 h6 {
   font-size: 3em;;
 }
@@ -31,7 +43,7 @@ h6 {
 
 span {
   display: inline-block;
-  margin-top: 25px;
+  margin-top: 5px;
 }
 
 nav {
@@ -45,18 +57,22 @@ span img {
 }
 
 #print {
-  float: right;
-  /* display: inline-block; */
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+
 }
 
-h4 {
-  color: rgb(173, 171, 171)
-}
 
 p {
   margin-top: 20px;
   margin-bottom: 20px;
   text-indent: 30px;
+}
+
+label {
+  font-size: 25px;
+  font-family: sans-serif;
 }
 
 #notepad {
@@ -73,10 +89,17 @@ p {
 #columnTwo {
   margin-left: 500px;
   margin-top: 80px;
+  word-wrap: break-word;
 }
 
+.line-through {
+  text-decoration: line-through
+  
+}
+
+
 footer {
-  margin-top: 200px;
+  margin-top: 125px;
 }
 
 #vanessa {
@@ -84,7 +107,7 @@ footer {
  
 }
 #shareRecipe {
-  background-color: red;
+  background-color: rgb(138, 67, 55);
   color: whitesmoke;
   width: 150px;
   height: 30px;
@@ -101,13 +124,13 @@ footer {
 hr {
   /* position: absolute; */
   margin-top: 50px;
-  z-index: -1;
+  /* z-index: ; */
 }
 
 #logo {
   margin-left: 50%;
   margin-top: 30px;
-  z-index: 2;
+  z-index: 3;
   /* margin-top: 5px; */
 }
 
